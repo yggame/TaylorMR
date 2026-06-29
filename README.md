@@ -118,9 +118,9 @@ The CSV file includes three summary rows at the bottom: `AVERAGE` (mean), `STD` 
 This test script supports evaluating multiple model architectures. Simply change the `--model` argument to test different models. The script automatically selects the correct inference logic based on the `model_name`. Supported models include:
 
 - **TSFN** (our model)
-- mmrmamba, hqsnet, reconformer, dudretlu
-- fsmnet, loformer, mccdic, mcdudonet
-- mambairv2, swinir, pino, A2CDIC
+- mmrmamba, dudretlu
+- fsmnet, loformer, mccdic
+- mambairv2, swinir, A2CDIC
 
 ## Notes
 
