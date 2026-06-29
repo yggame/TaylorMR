@@ -1,0 +1,18 @@
+distortion: sr
+task_mode: mcRec
+
+test_dataset:
+  dataset:
+    name: ixi_dataset_Reconstruction
+    args:
+      modality1: T2   
+      modality2: PD
+      split: test
+      list_dir: /hdd/yg_data/data_path/med_dataset/IXI_dataset/list_file_IXI_T2_PD
+      data_dir: /hdd/yg_data/data_path/med_dataset/IXI_dataset/IXI-T2-PD-H5
+      img_size: 256
+      mask_type: random_uniform
+      acceleration_rate: 4
+    
+  n_workers: 0
+  batch_size: 1
